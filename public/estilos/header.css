@@ -1,0 +1,123 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+header {
+  background-color: #30343f;
+  height: 144px;
+  margin: 0 auto;
+}
+
+.header-navbar {
+  width: 100%;
+  margin: auto;
+  padding: 40px 90px;
+  font-weight: 500;
+  line-height: 23px;
+  letter-spacing: 0em;
+}
+
+.header-navbar-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header-navbar-logo {
+  width: 372px;
+  height: 65.19px;
+}
+
+.header-navbar-nav {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.header-nav-item {
+  list-style-type: none;
+}
+
+.header-nav-link {
+  /*padding: 10px 0 10px 60px;*/
+  position: relative;
+  display: inline-block;
+  padding: 10px 20px;
+  color: #ffffff;
+  text-decoration: none;
+  font-family: "raleway", sans-serif;
+  font-size: 2rem;
+  transition: background .3s ease-in-out;
+  position: relative;
+}
+
+.header-nav-link:hover{
+  cursor: pointer;
+  background-color: red;
+}
+
+#nav-item__carrito {
+  position: relative;
+}
+
+header span {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: -10px;
+  right: -10px;
+  width: 18px;
+  height: 18px;
+  background-color: #ff3333;
+  color: #ffffff;
+  border-radius: 50%;
+  font-size: 1.6rem;
+}
+
+.icon{
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.nav-submenu:hover .submenu{
+  display: block;
+}
+
+.submenu{
+  display: none;
+  /*width: 120px;*/
+  position: absolute;
+  background-color: solid #30343f;
+}
+
+.submenu-item{
+  text-decoration: none;
+}
+/*.submenu-item{
+  display: block;
+  padding: 3px 20px;
+  transition: background .3s ease-in-out;
+}*/
+
+.submenu-link{
+  display: block;
+  padding: 3px 20px;
+  transition: background .3s ease-in-out;
+  color: #ffffff;
+  text-decoration: none;
+  font-family: "raleway", sans-serif;
+  font-size: 1.9rem;
+  /*display:flex;*/ 
+}
+
+.submenu-link:hover{
+  background-color: red;
+}
+

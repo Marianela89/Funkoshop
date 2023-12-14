@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="shortcut icon"
+      href="multimedia/icons/baby-yoda-1.ico"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="estilos/index.css" />
+    <link rel="stylesheet" href="estilos/glide.core.css" />
+    <link rel="stylesheet" href="estilos/glide.theme.css" />
+    <link rel="stylesheet" href="estilos/header.css" />
+    <link rel="stylesheet" href="estilos/footer.css" />
+    
+    <title>Funkoshop - <%= titulo %></title>
+  </head>
+  <body>
+    <!-- INICIO HEADER -->
+    <header>
+      <nav class="header-navbar">
+        <div class="header-navbar-container">
+          <a class="header-navbar-logo" href="index.html">
+            <img
+              src="multimedia/branding/logo_light_horizontal.svg"
+              alt="logo"
+            />
+          </a>
+          <ul class="header-navbar-nav">
+            <li class="header-nav-item nav-submenu">
+              <a class="header-nav-link icon" href="/shop"
+                >SHOP <img src="assets/img/piquito.png"
+              /></a>
+                 <ul class="submenu">
+                   <li class="submenu-item">
+                     <a href="/shop?filter=funkos" class="submenu-link">Funkos</a>
+                   </li>
+                   <li class="submenu-item">
+                    <a href="/shop?filter=remeras" class="submenu-link">Remeras</a>
+                  </li>
+                  <li class="submenu-item">
+                    <a href="/shop?filter=llaveros" class="submenu-link">Llaveros</a>
+                  </li>
+                 </ul>
+            </li>
+            <li class="header-nav-item">
+              <a class="header-nav-link" href="/contact">CONTACTO</a>
+            </li>
+            <li class="header-nav-item">
+              <a class="header-nav-link" href="/auth/login">LOGIN</a>
+            </li>
+            <li class="header-nav-item">
+              <a class="header-nav-link carrito" href="/shop/carrito"
+                ><img src="assets/img/cart-icon.png"
+              /></a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <!-- FIN HEADER -->
